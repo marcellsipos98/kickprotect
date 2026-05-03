@@ -1,0 +1,12 @@
+.git/
+.wrangler/
+node_modules/
+
+.assetsignore
+.gitattributes
+.gitignore
+README.md
+package.json
+wrangler.toml
+
+*.zip

@@ -4,7 +4,7 @@ Static landing page for `kickprotect.hu`.
 
 ## Cloudflare Pages
 
-Use these settings when connecting the Git repository:
+Use these settings when connecting the Git repository as a Pages project:
 
 - Framework preset: `None`
 - Build command: `npm run build`
@@ -25,3 +25,12 @@ Cloudflare only needs:
 - `_headers`
 
 Local reference files and zip archives are intentionally ignored by Git.
+
+## Cloudflare Workers Builds
+
+This repo also includes `wrangler.toml` for Workers Builds using:
+
+- Deploy command: `npx wrangler deploy`
+- Asset directory: `.`
+
+Static asset upload exclusions are controlled by `.assetsignore`.

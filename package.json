@@ -5,5 +5,8 @@
   "description": "Static KickProtect landing page for Cloudflare Pages.",
   "scripts": {
     "build": "echo \"Static site: no build step required\""
+  },
+  "devDependencies": {
+    "wrangler": "^4.87.0"
   }
 }

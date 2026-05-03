@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Kick Protect sneaker shield</title>
+  <desc id="desc">Fehér TPU cipővédő perforációval, fekete orr-résszel, KP dombornyomással és puha textil belső réteggel.</desc>
+  <defs>
+    <linearGradient id="body" x1="130" x2="760" y1="130" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.24" stop-color="#f7f7f4"/>
+      <stop offset="0.52" stop-color="#d9dad5"/>
+      <stop offset="0.8" stop-color="#f1f1ed"/>
+      <stop offset="1" stop-color="#bfc3be"/>
+    </linearGradient>
+    <linearGradient id="fabricLayer" x1="136" x2="720" y1="426" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bfc7c1"/>
+      <stop offset="0.45" stop-color="#eef1ed"/>
+      <stop offset="1" stop-color="#aeb8b1"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="180" x2="740" y1="430" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c5c6c1"/>
+      <stop offset="0.45" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#aeb1ad"/>
+    </linearGradient>
+    <linearGradient id="toe" x1="290" x2="520" y1="118" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2e2e2e"/>
+      <stop offset="0.52" stop-color="#111"/>
+      <stop offset="1" stop-color="#070707"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="34%" cy="34%" r="56%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.72"/>
+      <stop offset="0.38" stop-color="#ffffff" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="weave" width="14" height="14" patternUnits="userSpaceOnUse">
+      <path d="M0 4h14M0 11h14" stroke="#8d9891" stroke-width="1" opacity=".22"/>
+      <path d="M4 0v14M11 0v14" stroke="#ffffff" stroke-width="1" opacity=".28"/>
+    </pattern>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="22"/>
+      <feOffset dy="26"/>
+      <feColorMatrix values="0 0 0 0 0.06 0 0 0 0 0.06 0 0 0 0 0.06 0 0 0 .28 0"/>
+      <feBlend in2="SourceGraphic"/>
+    </filter>
+    <filter id="surfaceNoise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence baseFrequency="0.012" numOctaves="2" seed="7" type="fractalNoise"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.055"/>
+      </feComponentTransfer>
+    </filter>
+    <clipPath id="guardClip">
+      <path d="M144 370C97 297 128 201 208 151c71-45 155-63 233-59 47 3 74 20 82 45 8 26-10 66-48 107 65 7 122-1 179-41 75-53 141-56 179-6 35 45 29 123-14 184-66 94-212 145-379 153-143 7-251-37-296-164Z"/>
+    </clipPath>
+    <clipPath id="fabricClip">
+      <path d="M132 396c88 58 198 88 329 82 148-7 281-47 369-116-78 98-228 164-390 172-143 7-251-37-296-164-6-10-10-20-12-30Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="498" cy="486" rx="286" ry="34" fill="#111" opacity=".22"/>
+  <g filter="url(#softShadow)">
+    <path fill="url(#body)" d="M144 370C97 297 128 201 208 151c71-45 155-63 233-59 47 3 74 20 82 45 8 26-10 66-48 107 65 7 122-1 179-41 75-53 141-56 179-6 35 45 29 123-14 184-66 94-212 145-379 153-143 7-251-37-296-164Z"/>
+    <path fill="url(#shine)" d="M144 370C97 297 128 201 208 151c71-45 155-63 233-59 47 3 74 20 82 45 8 26-10 66-48 107 65 7 122-1 179-41 75-53 141-56 179-6 35 45 29 123-14 184-66 94-212 145-379 153-143 7-251-37-296-164Z"/>
+    <g clip-path="url(#guardClip)" opacity=".5">
+      <rect x="92" y="76" width="780" height="486" filter="url(#surfaceNoise)"/>
+      <path d="M110 390C245 454 418 461 622 417c92-20 164-56 224-108" fill="none" stroke="url(#edge)" stroke-width="18" opacity=".45"/>
+      <path d="M159 223c71-52 172-84 279-89" fill="none" stroke="#fff" stroke-width="13" opacity=".38"/>
+      <path d="M164 405c86 54 191 75 316 64" fill="none" stroke="#8c8f8a" stroke-width="7" opacity=".18"/>
+    </g>
+    <g clip-path="url(#fabricClip)">
+      <path d="M132 396c88 58 198 88 329 82 148-7 281-47 369-116-78 98-228 164-390 172-143 7-251-37-296-164-6-10-10-20-12-30Z" fill="url(#fabricLayer)"/>
+      <rect x="112" y="322" width="760" height="228" fill="url(#weave)" opacity=".72"/>
+      <path d="M146 398c95 55 207 78 336 68 126-10 238-44 337-103" fill="none" stroke="#f9fbf8" stroke-width="7" opacity=".58"/>
+    </g>
+    <path fill="url(#toe)" d="M342 99c57-11 119-11 161-3 27 6 37 19 32 39-7 30-42 74-91 105-26 16-59 15-82-6-25-22-45-69-41-99 3-18 10-31 21-36Z"/>
+    <path d="M144 370C97 297 128 201 208 151c71-45 155-63 233-59 47 3 74 20 82 45 8 26-10 66-48 107 65 7 122-1 179-41 75-53 141-56 179-6 35 45 29 123-14 184-66 94-212 145-379 153-143 7-251-37-296-164Z" fill="none" stroke="#f7f7f4" stroke-width="2" opacity=".8"/>
+    <g fill="#121212">
+      <circle cx="214" cy="174" r="7"/>
+      <circle cx="254" cy="160" r="7"/>
+      <circle cx="296" cy="151" r="7"/>
+      <circle cx="202" cy="218" r="8"/>
+      <circle cx="246" cy="205" r="8"/>
+      <circle cx="291" cy="195" r="8"/>
+      <circle cx="336" cy="189" r="8"/>
+      <circle cx="193" cy="265" r="9"/>
+      <circle cx="241" cy="253" r="9"/>
+      <circle cx="291" cy="243" r="9"/>
+      <circle cx="343" cy="236" r="9"/>
+    </g>
+    <g fill="#f8f8f5" stroke="#aeb1ad" stroke-width="2">
+      <circle cx="413" cy="228" r="8"/>
+      <circle cx="456" cy="227" r="8"/>
+      <circle cx="501" cy="229" r="8"/>
+      <circle cx="545" cy="234" r="8"/>
+      <circle cx="593" cy="238" r="8"/>
+      <circle cx="401" cy="280" r="9"/>
+      <circle cx="448" cy="279" r="9"/>
+      <circle cx="498" cy="282" r="9"/>
+      <circle cx="548" cy="288" r="9"/>
+      <circle cx="602" cy="292" r="9"/>
+      <circle cx="427" cy="334" r="9"/>
+      <circle cx="480" cy="334" r="9"/>
+      <circle cx="533" cy="339" r="9"/>
+      <circle cx="588" cy="347" r="9"/>
+    </g>
+    <g opacity=".2" fill="none" stroke="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
+      <path d="M703 310v98"/>
+      <path d="M731 312l-35 43 43 52"/>
+      <path d="M756 310v98"/>
+      <path d="M756 310c52 0 55 54 6 58"/>
+      <path d="M764 367l41 41"/>
+    </g>
+  </g>
+</svg>

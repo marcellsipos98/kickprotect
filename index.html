@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kick Protect | TPU sneaker shield</title>
+    <meta
+      name="description"
+      content="KickProtect rugalmas TPU sneaker shield a cipő orr-részének forma-, megjelenés- és értékmegőrzéséhez."
+    />
+    <link rel="preload" href="./assets/KPlogo.png" as="image" type="image/png" />
+    <link rel="preload" href="./assets/kp-white.png" as="image" type="image/png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="Kick Protect főoldal">
+        <img class="brand-logo" src="./assets/KPlogo.png" alt="Kick Protect" />
+      </a>
+
+      <nav class="main-nav" data-nav aria-label="Fő navigáció">
+        <a href="#problema">Probléma</a>
+        <a href="#termekek">Termékek</a>
+        <a href="#anyagok">Anyagok</a>
+        <a href="#kapcsolat">Kapcsolat</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button" type="button" aria-label="Profil">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 21a8 8 0 0 0-16 0" />
+            <circle cx="12" cy="7" r="4" />
+          </svg>
+        </button>
+        <button class="icon-button bag-button" type="button" aria-label="Kosár">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 8h12l1 13H5L6 8Z" />
+            <path d="M9 8V6a3 3 0 0 1 6 0v2" />
+          </svg>
+          <span class="cart-count" data-cart-count>0</span>
+        </button>
+        <button class="icon-button menu-button" type="button" aria-label="Menü megnyitása" data-menu-button>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 7h16" />
+            <path d="M4 12h16" />
+            <path d="M4 17h16" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">KickProtect TPU sneaker shield</p>
+          <h1>Őrizd meg<br />a sneaker formáját.</h1>
+          <p class="hero-lead">
+            Rugalmas, esztétikus és kényelmesebb megoldás a toe box védelmére, hogy a kedvenc cipőd tovább tartsa
+            a formáját, megjelenését és értékét.
+          </p>
+          <div class="hero-buttons" aria-label="Kiemelt műveletek">
+            <a class="button button-primary" href="#termekek">
+              Csomagok
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14" />
+                <path d="m13 6 6 6-6 6" />
+              </svg>
+            </a>
+            <a class="button button-secondary" href="#problema">
+              Miért kell?
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14" />
+                <path d="m13 6 6 6-6 6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Kick Protect cipővédő termék">
+          <img src="./assets/kp-white.png" alt="Perforált Kick Protect sneaker shield fehér TPU kivitelben" />
+        </div>
+
+        <div class="feature-strip" aria-label="Fő előnyök">
+          <article class="feature-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3 5 6v5c0 4.7 2.9 8.8 7 10 4.1-1.2 7-5.3 7-10V6l-7-3Z" />
+              <path d="m9 12 2 2 4-5" />
+            </svg>
+            <div>
+              <h2>Forma-megőrzés</h2>
+              <p>Kevesebb gyűrődés és deformáció a sneaker orr-részén</p>
+            </div>
+          </article>
+          <article class="feature-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 7c4-2.6 12-2.6 16 0v10c-4 2.6-12 2.6-16 0V7Z" />
+              <path d="M7 10c3-1.2 7-1.2 10 0" />
+              <path d="M7 14c3 1.2 7 1.2 10 0" />
+            </svg>
+            <div>
+              <h2>Rugalmas TPU</h2>
+              <p>Hajlik, visszanyeri formáját, és napi használatra készült</p>
+            </div>
+          </article>
+          <article class="feature-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 15c4.8 1.3 10.8 1.3 16 0v3H4v-3Z" />
+              <path d="M6 15c1.5-3 4-5.2 7-6.5l2 2.7 3.6 1.1 1.4 2.7" />
+              <path d="M9 11h.1" />
+              <path d="M12 10h.1" />
+              <path d="M15 12h.1" />
+            </svg>
+            <div>
+              <h2>Diszkrét védelem</h2>
+              <p>Vékony kialakítás, amely nem borítja fel a sneaker sziluettjét</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="problem-solution" id="problema">
+        <div class="problem-intro">
+          <p class="eyebrow">A probléma</p>
+          <h2>Gyűrődés, deformáció = értékvesztés.</h2>
+          <p>
+            A sneaker orr-része használat közben könnyen gyűrődik, deformálódik, és elveszíti az eredeti formáját.
+            Ez különösen azoknak zavaró, akik figyelnek a cipőik állapotára, megjelenésére és értékére.
+          </p>
+        </div>
+
+        <div class="problem-grid">
+          <article class="problem-card problem-card-dark">
+            <span>01</span>
+            <h3>Használat közben törik a forma</h3>
+            <p>A toe box a járás természetes hajlításától kapja a legnagyobb terhelést.</p>
+          </article>
+          <article class="problem-card">
+            <span>02</span>
+            <h3>A megoldás belül kezdődik</h3>
+            <p>A KickProtect a cipő orr-részébe kerül, és segít megtartani az eredeti ívet.</p>
+          </article>
+          <article class="problem-card solution-card">
+            <span>03</span>
+            <h3>Rugalmas, újrahasználható, diszkrét</h3>
+            <p>TPU anyag, szellőző perforáció és több méret a kényelmesebb mindennapi viselethez.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="products section-band" id="termekek">
+        <div class="section-heading">
+          <p class="eyebrow">Csomagok és árak</p>
+          <h2>Válaszd ki a cipődhöz illő védelmet</h2>
+          <p>
+            Basic, Comfort és Premium Gold csomagok különböző sneaker-használathoz. Mindegyik pár ergonomikus,
+            ívelt formával készül bal és jobb oldali cipőhöz.
+          </p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-media">
+              <img src="./assets/kp-white.png" alt="Kick Protect Classic fehér cipővédő" loading="lazy" />
+            </div>
+            <div class="product-content">
+              <div class="color-options" aria-label="Classic színek">
+                <span class="swatch swatch-white"></span>
+                <span class="swatch swatch-smoke"></span>
+              </div>
+              <h3>Kick Protect Basic</h3>
+              <p>Rugalmas TPU alapvédelem szellőző perforációval a legtöbb hétköznapi sneakerhez.</p>
+              <div class="price-row">
+                <span>3 990 Ft</span>
+                <small>1 pár</small>
+              </div>
+              <button class="product-button" type="button" data-add-to-cart>Kosárba</button>
+            </div>
+          </article>
+
+          <article class="product-card featured-product">
+            <div class="product-badge">Ajánlott</div>
+            <div class="product-media">
+              <img src="./assets/kp-green.png" alt="Kick Protect Premium zöld cipővédő" loading="lazy" />
+            </div>
+            <div class="product-content">
+              <div class="color-options" aria-label="Premium színek">
+                <span class="swatch swatch-white"></span>
+                <span class="swatch swatch-stone"></span>
+                <span class="swatch swatch-black"></span>
+              </div>
+              <h3>Kick Protect Comfort</h3>
+              <p>Puha belső érzet, mosható kialakítás és rugalmas forma-megtartás napi használathoz.</p>
+              <div class="price-row">
+                <span>6 990 Ft</span>
+                <small>1 pár</small>
+              </div>
+              <button class="product-button" type="button" data-add-to-cart>Kosárba</button>
+            </div>
+          </article>
+
+          <article class="product-card premium-product">
+            <div class="product-media gold-product">
+              <img src="./assets/kp-blue.png" alt="Kick Protect Premium Gold cipővédő" loading="lazy" />
+            </div>
+            <div class="product-content">
+              <div class="color-options" aria-label="Black színek">
+                <span class="swatch swatch-black"></span>
+                <span class="swatch swatch-graphite"></span>
+                <span class="swatch swatch-gold"></span>
+              </div>
+              <h3>Kick Protect Premium Gold</h3>
+              <p>Erősebb vizuális karakter, KP branding és prémium színvilág gyűjtői sneakerekhez.</p>
+              <div class="price-row">
+                <span>9 990 Ft</span>
+                <small>1 pár</small>
+              </div>
+              <button class="product-button" type="button" data-add-to-cart>Kosárba</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="engineering-section" id="anyagok">
+        <div class="engineering-copy">
+          <p class="eyebrow">Engineering workflow</p>
+          <h2>3D scanből pontos TPU formáig</h2>
+          <p>
+            A KickProtect fejlesztése valós cipőgeometriából indul: először pontfelhő készül, majd a nyers
+            scanadatból tisztított modell és tesztelhető TPU shield forma lesz.
+          </p>
+          <div class="engineering-tags" aria-label="Fejlesztési fókuszok">
+            <span>Point cloud</span>
+            <span>Mesh cleanup</span>
+            <span>CAD modeling</span>
+            <span>TPU prototype</span>
+          </div>
+        </div>
+
+        <div class="engineering-board" aria-label="KickProtect mérnöki fejlesztési folyamat">
+          <article class="engineering-card scan-card">
+            <div class="card-meta">
+              <span>01</span>
+              <small>Capture</small>
+            </div>
+            <img src="./assets/kp-pointcloud-yellow.png" alt="Sárga 3D pontfelhő cipőről és lábról" loading="lazy" />
+            <div class="card-copy">
+              <h3>Pontfelhő rögzítés</h3>
+              <p>A cipő és láb térbeli adataiból indul a toe box geometriájának feltérképezése.</p>
+            </div>
+          </article>
+
+          <article class="engineering-card data-card">
+            <div class="card-meta">
+              <span>02</span>
+              <small>Refine</small>
+            </div>
+            <img src="./assets/kp-pointcloud-red.png" alt="Piros 3D pontfelhő részletes cipőszkennelésről" loading="lazy" />
+            <div class="card-copy">
+              <h3>Adattisztítás</h3>
+              <p>A nyers scanből használható felület születik, ami pontosabb illeszkedési alapot ad.</p>
+            </div>
+          </article>
+
+          <article class="engineering-card model-card">
+            <div class="card-meta">
+              <span>03</span>
+              <small>Model</small>
+            </div>
+            <img src="./assets/kp-modeling.png" alt="Narancs CAD modell perforált KickProtect TPU shieldről" loading="lazy" />
+            <div class="card-copy">
+              <h3>Shield modellezés</h3>
+              <p>A scanadat alapján készül a perforált, hajlított, prototípusra vihető TPU forma.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="engineering-specs" aria-label="Műszaki tulajdonságok">
+          <article>
+            <strong>TPU külső héj</strong>
+            <span>Rugalmas, forma-visszanyerő réteg a toe box tartásához.</span>
+          </article>
+          <article>
+            <strong>Puha textil belső</strong>
+            <span>Kényelmesebb érzet és finomabb érintkezés a mindennapi használathoz.</span>
+          </article>
+          <article>
+            <strong>Perforált zóna</strong>
+            <span>Szellőző nyílások és súlycsökkentett szerkezet a viselhetőséghez.</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section-band" id="rolunk">
+        <div class="about-panel">
+          <p class="eyebrow">Vízió és küldetés</p>
+          <h2>Sneaker kiegészítő márka, amely megőrzi a részleteket</h2>
+          <p>
+            Olyan sneaker kiegészítő márkát építünk, amely segít hosszabb ideig megőrizni a cipők formáját,
+            megjelenését és értékét modern anyaghasználattal és prémium megjelenéssel.
+          </p>
+        </div>
+        <div class="stats">
+          <article>
+            <svg class="stat-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3 5.5 5.8v5.3c0 4.3 2.7 8 6.5 9.4 3.8-1.4 6.5-5.1 6.5-9.4V5.8L12 3Z" />
+              <path d="m9.2 12 1.9 1.9 3.9-4.5" />
+            </svg>
+            <strong>Forma</strong>
+            <span>Az orr-rész eredeti ívének megőrzésére tervezve</span>
+          </article>
+          <article>
+            <svg class="stat-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 19c4.7-1.5 9.3-5.2 13.8-11.1 1.1-1.5.4-3.7-1.4-4.2-4.4-1.2-9.9 1.5-12.3 6.7-1.1 2.3-1 4.8.1 6.7" />
+              <path d="M4 20 15 9" />
+              <path d="M9.5 14.5H6.2" />
+              <path d="M12.2 11.8H8.9" />
+            </svg>
+            <strong>Diszkrét</strong>
+            <span>A cipőn belül marad, a megjelenés kívül tiszta</span>
+          </article>
+          <article>
+            <svg class="stat-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 17 17 4l3 3L7 20l-3-3Z" />
+              <path d="m8 13 2 2" />
+              <path d="m11 10 1.6 1.6" />
+              <path d="m14 7 2 2" />
+              <path d="M6.5 18.5 18.5 6.5" />
+            </svg>
+            <strong>S/M/L</strong>
+            <span>Három méret különböző sneaker formákhoz</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="kapcsolat">
+        <div>
+          <p class="eyebrow">Kapcsolat</p>
+          <h2>Ki lesz a következő vásárlónk?</h2>
+          <p>Írj nekünk, és segítünk megtalálni a megfelelő KickProtect párt a sneakeredhez.</p>
+        </div>
+        <form class="contact-form" aria-label="Kapcsolati űrlap">
+          <label>
+            Név
+            <input type="text" name="name" autocomplete="name" />
+          </label>
+          <label>
+            E-mail
+            <input type="email" name="email" autocomplete="email" />
+          </label>
+          <label>
+            Üzenet
+            <textarea name="message" rows="4"></textarea>
+          </label>
+          <button class="button button-primary" type="submit">
+            Küldés
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 12h14" />
+              <path d="m13 6 6 6-6 6" />
+            </svg>
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#home" aria-label="Kick Protect főoldal">
+        <img class="brand-logo" src="./assets/KPlogo.png" alt="Kick Protect" />
+      </a>
+      <p>© 2026 Kick Protect. Prémium cipővédelem a mindennapokra.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

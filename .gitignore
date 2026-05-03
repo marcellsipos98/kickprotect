@@ -1,0 +1,26 @@
+# Dependencies and local tooling
+node_modules/
+.wrangler/
+.cloudflare/
+
+# Build/output folders
+dist/
+build/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local reference/source material, not needed for Cloudflare Pages
+/i forgot to add/
+/*.zip
+/about-icons.png
+/desktop.png
+/how-it-works.png
+/how-it-works-mobile.png
+/mobile.png
+/sections.png
+/kickprotect_uzleti_terv.txt

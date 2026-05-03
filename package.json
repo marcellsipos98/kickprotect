@@ -1,0 +1,9 @@
+{
+  "name": "kick-protect-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static KickProtect landing page for Cloudflare Pages.",
+  "scripts": {
+    "build": "echo \"Static site: no build step required\""
+  }
+}

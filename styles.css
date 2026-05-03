@@ -830,10 +830,10 @@ img {
 
 .about {
   display: grid;
-  grid-template-columns: minmax(360px, 0.9fr) minmax(420px, 1.1fr);
-  gap: 44px;
+  grid-template-columns: minmax(390px, 430px) minmax(960px, 1fr);
+  gap: 72px;
   align-items: center;
-  max-width: var(--max);
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -844,24 +844,24 @@ img {
 .stats {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
+  gap: 24px;
 }
 
 .stats article {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  min-height: 180px;
-  padding: 24px;
+  min-height: 360px;
+  padding: 36px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--white);
 }
 
 .stat-icon {
-  width: 38px;
-  height: 38px;
-  margin-bottom: 22px;
+  width: 114px;
+  height: 114px;
+  margin-bottom: 44px;
   color: var(--ink);
   fill: none;
   stroke: currentColor;
@@ -872,16 +872,16 @@ img {
 
 .stats strong {
   display: block;
-  margin-bottom: 14px;
-  font-size: 2.4rem;
+  margin-bottom: 18px;
+  font-size: 2.65rem;
   font-weight: 950;
-  line-height: 1;
+  line-height: 0.98;
 }
 
 .stats span {
   color: var(--ink-soft);
-  font-size: 0.98rem;
-  line-height: 1.5;
+  font-size: 1.06rem;
+  line-height: 1.55;
 }
 
 .contact {
@@ -977,6 +977,16 @@ img {
   color: rgba(255, 255, 255, 0.66);
 }
 
+@media (max-width: 1420px) {
+  .about {
+    grid-template-columns: 1fr;
+  }
+
+  .about-panel {
+    max-width: 760px;
+  }
+}
+
 @media (max-width: 1100px) {
   .site-header {
     gap: 20px;
@@ -1032,6 +1042,10 @@ img {
 
   .about {
     max-width: none;
+  }
+
+  .stats article {
+    min-height: 330px;
   }
 }
 
@@ -1185,6 +1199,15 @@ img {
   .engineering-specs,
   .stats {
     grid-template-columns: 1fr;
+  }
+
+  .stats {
+    gap: 18px;
+  }
+
+  .stats article {
+    min-height: 300px;
+    padding: 32px;
   }
 
   .product-card {
